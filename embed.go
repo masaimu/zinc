@@ -20,7 +20,6 @@ import (
 	"io/fs"
 )
 
-//go:embed web/dist
 var embedFrontend embed.FS
 
 func GetFrontendAssets() (fs.FS, error) {
